@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\sistema de biblioteca avances\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {}
+    "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\sistema de biblioteca avances\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {
+    "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\sistema de biblioteca avances\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
         "projectName": "avance 1 sistema de biblioteca",
-        "projectPath": "C:\\Users\\dell\\Desktop\\sistema de biblioteca avances\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+        "projectPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\sistema de biblioteca avances\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
