@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("avance 1 sistema de biblioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e27a81fc06a9f3f1b6923c959c6fe332ca554a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcab0cfbd736ac3787443c3a284b16cc841bf1bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("avance 1 sistema de biblioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("avance 1 sistema de biblioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

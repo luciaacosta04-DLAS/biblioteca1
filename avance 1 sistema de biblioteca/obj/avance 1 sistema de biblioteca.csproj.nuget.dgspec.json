@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {}
+    "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {
+    "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
         "projectName": "avance 1 sistema de biblioteca",
-        "projectPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,12 @@
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

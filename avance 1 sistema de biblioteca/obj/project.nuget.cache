@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EsZVSXfjZkk=",
+  "dgSpecHash": "IGEWp2Wz53k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adria\\.nuget\\packages\\system.data.oledb\\10.0.10\\system.data.oledb.10.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

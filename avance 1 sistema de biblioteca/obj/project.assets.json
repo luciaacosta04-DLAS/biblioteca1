@@ -1,26 +1,87 @@
 {
   "version": 4,
   "targets": {
-    "net10.0-windows": {}
+    "net10.0-windows": {
+      "System.Data.OleDb/10.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Data.OleDb.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "System.Data.OleDb/10.0.10": {
+      "sha512": "0AoTQWQA/6MSZs85fdY9UqRrRAZqTRsqk9LPM7Ka1LcGdtCd89qyECagaE57ASFRS591JfNydtDv3F3T7HGfCA==",
+      "type": "package",
+      "path": "system.data.oledb/10.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Data.OleDb.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Data.OleDb.targets",
+        "lib/net10.0/System.Data.OleDb.dll",
+        "lib/net10.0/System.Data.OleDb.xml",
+        "lib/net462/System.Data.OleDb.dll",
+        "lib/net462/System.Data.OleDb.xml",
+        "lib/net8.0/System.Data.OleDb.dll",
+        "lib/net8.0/System.Data.OleDb.xml",
+        "lib/net9.0/System.Data.OleDb.dll",
+        "lib/net9.0/System.Data.OleDb.xml",
+        "lib/netstandard2.0/System.Data.OleDb.dll",
+        "lib/netstandard2.0/System.Data.OleDb.xml",
+        "runtimes/win/lib/net10.0/System.Data.OleDb.dll",
+        "runtimes/win/lib/net10.0/System.Data.OleDb.xml",
+        "runtimes/win/lib/net8.0/System.Data.OleDb.dll",
+        "runtimes/win/lib/net8.0/System.Data.OleDb.xml",
+        "runtimes/win/lib/net9.0/System.Data.OleDb.dll",
+        "runtimes/win/lib/net9.0/System.Data.OleDb.xml",
+        "system.data.oledb.10.0.10.nupkg.sha512",
+        "system.data.oledb.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows": []
+    "net10.0-windows": [
+      "System.Data.OleDb >= 10.0.10"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {}
+    "C:\\Users\\adria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
       "projectName": "avance 1 sistema de biblioteca",
-      "projectPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\biblioteca\\avance 1 sistema de biblioteca\\obj\\",
+      "projectPath": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\avance 1 sistema de biblioteca.csproj",
+      "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adria\\Desktop\\momo\\avance 1 sistema de biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,6 +114,12 @@
       "net10.0-windows": {
         "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
+        "dependencies": {
+          "System.Data.OleDb": {
+            "target": "Package",
+            "version": "[10.0.10, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -72,7 +139,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

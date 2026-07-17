@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\dell\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dell\\.nuget\\packages"
+      "C:\\Users\\adria\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\adria\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
